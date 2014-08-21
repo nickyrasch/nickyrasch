@@ -1,0 +1,467 @@
+
+
+#portfolio h1, #contact, #coder, #artist {
+    padding: 1em 17%;
+  }
+
+   #portfolio ul li, #portfolio ul .off {
+  background: none;
+}
+  #portfolio #superBaby {
+  background: url(../images/portfolio/superBabies.jpg) right center no-repeat;
+  background-size: cover;
+}
+#portfolio #vincent.off {
+  background: url(../images/portfolio/vincent.jpg) left bottom no-repeat;
+  background-size: cover;
+}
+#portfolio #insatiable.off {
+  background: url(../images/portfolio/insatiable.jpg) top center no-repeat;
+  background-size: cover;
+}
+#portfolio #comic.off {
+  background: url(../images/portfolio/comic.jpg) top center no-repeat;
+  background-size: cover;
+}
+#portfolio #crusty {
+  background: url(../images/portfolio/crusty.jpg) center center no-repeat;
+  background-size: cover;
+}
+#portfolio #franco.off {
+  background: url(../images/portfolio/franco.jpg) right center no-repeat;
+  background-size: cover;
+}
+#portfolio #pch {
+  background: url(../images/portfolio/pch.jpg) left center no-repeat;
+  background-size: cover;
+}
+#portfolio #sva {
+  background: url(../images/portfolio/sva.jpg) top left no-repeat;
+  background-size: cover;
+}
+
+#portfolio #comicMovies.off {
+  background: url(../images/portfolio/comicMovies.jpg) right center no-repeat;
+  background-size: cover;
+}
+#portfolio #lights {
+  background: url(../images/portfolio/lights.jpg) left center no-repeat;
+  background-size: cover;
+}
+
+/*---------------------FOOTER STYLES*/
+
+footer {
+  text-align: center;
+  float:left;
+  width: 100%;
+  background: #fff;
+}
+
+footer img {
+  max-width: 100px;
+  padding: 1em 2em 0em;
+}
+
+#TM {
+  font-weight: 100;
+  color: #111;
+  font-size: .75em;
+  float: right;
+  width: 100%;
+  padding: .5em 2em 2em;
+  text-transform: uppercase;
+}
+
+/*---------------------MAIN STYLES END*/
+/*---------------------MOBILE STYLES*/
+@media screen and (min-width: 0px) and (max-width: 820px) {
+  header nav ul li {
+    font-size: 1em;
+    padding: .75em;
+  }
+  #logo a {
+    padding: .75em 1em;
+  }
+  section h1 {
+    font-size: 1.25em;
+  }
+  #about, #contact {
+    height: 775px;
+  }
+  #about h1 {
+    padding-top: 8em;
+  }
+  #code_skills {
+    padding: 1em 25%;
+  }
+  #hire {
+    padding: 0em 8%;
+    top: 26em;
+    left: 0;
+  }
+  #coder p, #artist p {
+    height: 220px;
+  }
+  #portfolio h1, #contact, #coder, #artist {
+    padding: 1em 0em;
+  }
+  #portfolio ul li {
+    width: 100%;
+    border-bottom: 3px solid #fff;
+  }
+  #contact {
+    height: 775px;
+  }
+}
+/*---------------------MOBILE STYLES END*/
+/*---------------------LAPTOP STYLES BEGIN*/
+@media screen and (min-width: 1080px) and (max-width: 1550px) {
+  #about {
+    background: transparent;
+    height: 800px;
+  }
+  #about h1 {
+    padding-top: 10em;
+  }
+
+  #code_skills {
+    padding: 0em 38%
+  }
+  #hire {
+    padding: 0em 32% 0em 36%;
+    top: 43em;
+    left: 0;
+  }
+  #portfolio h1, #contact, #coder, #artist {
+    padding: 1em 30%;
+  }
+  #video_background {
+    display: inline-block;
+  }
+  #carousel img {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+  }
+  #resume ul {
+    float: right;
+    width: 40%;
+    border-radius: 5em 0em 0em 0em
+  }
+  #resume h1, #resume h4 {
+    text-align: right;
+  }
+  footer img {
+    float: left;
+  }
+  #TM {
+    width: 80%;
+    padding: 2em;
+    text-align: right;
+  }
+  #portfolio {
+    float: none;
+  }
+  #portfolio ul li {
+    width: 50%;
+  }
+    #contact {
+    padding: 1em 30%;
+    height: 1000px;
+  }
+  #portfolio ul li {
+  background: none;
+}
+
+#portfolio ul .off {
+  background: rgba(255,255,255,0.5);
+}
+
+#portfolio ul li:hover {
+  border: 3px solid #fff;
+}
+.description {
+  color: #111;
+  text-shadow: 2px 2px #fff;
+  background: rgba(255,255,255,0.75);
+}
+
+  /*---------------------PORTFOLIO STYLES */
+
+  #portfolio #superBaby {
+    background: none;
+}
+#portfolio #vincent.off {
+  background: none;
+}
+#portfolio #insatiable.off {
+  background: none;
+}
+#portfolio #comic.off {
+  background: none;
+}
+#portfolio #crusty {
+  background: none;
+}
+#portfolio #franco.off{
+  background: none;
+}
+#portfolio #pch {
+  background: none;
+}
+#portfolio #sva {
+  background: none;
+}
+
+#portfolio #comicMovies.off {
+  background: none;
+}
+#portfolio #lights {
+  background: none;
+}
+
+
+
+#portfolio #superBaby:hover {
+  background: url(../images/portfolio/superBabies.jpg) right center no-repeat;
+  background-size: cover;
+}
+#portfolio #vincent.off:hover {
+  background: url(../images/portfolio/vincent.jpg) left bottom no-repeat;
+  background-size: cover;
+}
+#portfolio #insatiable.off:hover {
+  background: url(../images/portfolio/insatiable.jpg) top center no-repeat;
+  background-size: cover;
+}
+#portfolio #comic.off:hover {
+  background: url(../images/portfolio/comic.jpg) top center no-repeat;
+  background-size: cover;
+}
+#portfolio #crusty:hover {
+  background: url(../images/portfolio/crusty.jpg) center center no-repeat;
+  background-size: cover;
+}
+#portfolio #franco.off:hover {
+  background: url(../images/portfolio/franco.jpg) right center no-repeat;
+  background-size: cover;
+}
+#portfolio #pch:hover {
+  background: url(../images/portfolio/pch.jpg) left center no-repeat;
+  background-size: cover;
+}
+#portfolio #sva:hover {
+  background: url(../images/portfolio/sva.jpg) top left no-repeat;
+  background-size: cover;
+}
+
+#portfolio #comicMovies.off:hover {
+  background: url(../images/portfolio/comicMovies.jpg) right center no-repeat;
+  background-size: cover;
+}
+#portfolio #lights:hover {
+  background: url(../images/portfolio/lights.jpg) left center no-repeat;
+  background-size: cover;
+}
+
+#portfolio ul li:hover, #portfolio ul li.off:hover {
+  transition: 1s;
+}
+}
+/*---------------------LAPTOP STYLES END*/
+/*---------------------DESKTOPTOP STYLES BEGIN*/
+@media screen and (min-width: 1551px) and (max-width: 3000px) {
+  section {
+    width: 50%;
+  }
+
+  #portfolio {
+    float: none;
+    width: 100%;
+  }
+
+ #about {
+    height: 1000px;
+    width: 100%;
+    background: transparent;
+  }
+  #about h1 {
+    font-size: 3.5em;
+    padding: 8em 0em 0em;
+  }
+
+  #about h2, #about h2.scroll {
+    font-size: 1.25em;
+    margin: 0em;
+  }
+  #button {
+    width: 35%;
+    margin-top: .5em;
+    font-size: 1.25em;
+  }
+  #hire {
+    padding: 0em 30% 0em 35%;
+    top: 70em;
+    left: 0;
+  }
+  #contact {
+    padding: 1em 30%;
+    height: 1100px;
+  }
+  #video_background {
+    display: inline-block;
+  }
+  #coder, #artist {
+    min-height: 740px;
+  }
+  #contact, #resume {
+    width: 100%;
+  }
+  #code_skills {
+    padding: 0em 38%;
+  }
+  #carousel img {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+  }
+  #coder p, #artist p {
+    padding: 3.5em 1em 1em;
+    max-width: 550px;
+  }
+  .carousel_container {
+    height: 12em;
+  }
+  .caption_container {
+    width: 100%;
+    height: 100%;
+    float: left;
+  }
+  .caption_container p {
+    height: 200px;
+  }
+  #resume ul {
+    float: right;
+    width: 30%;
+    border-radius: 5em 0em 0em 0em
+  }
+  #resume h1, #resume h4 {
+    text-align: right;
+  }
+  footer img {
+    float: left;
+  }
+  #TM {
+    width: 80%;
+    padding:2em;
+    text-align: right;
+  }
+  #portfolio ul li {
+    width: 50%;
+  }
+  #portfolio h1, #coder, #artist {
+    padding: 2em;
+  }
+
+  #portfolio ul li {
+  background: none;
+}
+
+#portfolio ul .off {
+  background: rgba(255,255,255,0.5);
+}
+
+#portfolio ul li:hover {
+  border: 3px solid #fff;
+}
+.description {
+  color: #111;
+  text-shadow: 2px 2px #fff;
+  background: rgba(255,255,255,0.75);
+}
+
+  /*---------------------PORTFOLIO STYLES */
+
+  #portfolio #superBaby {
+    background: none;
+}
+#portfolio #vincent.off {
+  background: none;
+}
+#portfolio #insatiable.off {
+  background: none;
+}
+#portfolio #comic.off {
+  background: none;
+}
+#portfolio #crusty {
+  background: none;
+}
+#portfolio #franco.off{
+  background: none;
+}
+#portfolio #pch {
+  background: none;
+}
+#portfolio #sva {
+  background: none;
+}
+
+#portfolio #comicMovies.off {
+  background: none;
+}
+#portfolio #lights {
+  background: none;
+}
+
+
+
+#portfolio #superBaby:hover {
+  background: url(../images/portfolio/superBabies.jpg) right center no-repeat;
+  background-size: cover;
+}
+#portfolio #vincent.off:hover {
+  background: url(../images/portfolio/vincent.jpg) left bottom no-repeat;
+  background-size: cover;
+}
+#portfolio #insatiable.off:hover {
+  background: url(../images/portfolio/insatiable.jpg) top center no-repeat;
+  background-size: cover;
+}
+#portfolio #comic.off:hover {
+  background: url(../images/portfolio/comic.jpg) top center no-repeat;
+  background-size: cover;
+}
+#portfolio #crusty:hover {
+  background: url(../images/portfolio/crusty.jpg) center center no-repeat;
+  background-size: cover;
+}
+#portfolio #franco.off:hover {
+  background: url(../images/portfolio/franco.jpg) right center no-repeat;
+  background-size: cover;
+}
+#portfolio #pch:hover {
+  background: url(../images/portfolio/pch.jpg) left center no-repeat;
+  background-size: cover;
+}
+#portfolio #sva:hover {
+  background: url(../images/portfolio/sva.jpg) top left no-repeat;
+  background-size: cover;
+}
+
+#portfolio #comicMovies.off:hover {
+  background: url(../images/portfolio/comicMovies.jpg) right center no-repeat;
+  background-size: cover;
+}
+#portfolio #lights:hover {
+  background: url(../images/portfolio/lights.jpg) left center no-repeat;
+  background-size: cover;
+}
+
+#portfolio ul li:hover, #portfolio ul li.off:hover {
+  transition: 1s;
+}
+}
+/*---------------------DESKTOPTOP STYLES END*/
+
