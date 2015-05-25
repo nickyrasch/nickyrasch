@@ -45,7 +45,7 @@
 }
 
 .frame-container.skills {
-    padding-top: 70px;
+    padding: 70px 0;
 }
 
 .skills .lead, .skills .featurette-heading {
@@ -85,7 +85,7 @@
         display: none;
     }
     .carousel-caption {
-        bottom: 70px;
+        bottom: 30px;
     }
 }
 
@@ -107,7 +107,7 @@
         display: none;
     }
     .carousel-caption {
-        bottom: 70px;
+        bottom: 30px;
     }
 }
 
