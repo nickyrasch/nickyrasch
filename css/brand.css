@@ -1,0 +1,113 @@
+.myname {
+    padding: 6px 0;
+    margin: 0;
+}
+
+.myname a {
+    color: #efefef;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.icky {
+    font-size: 30px;
+    float: left;
+    padding-top: 3px;
+}
+
+.mybrand {
+    float: left;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.absolute-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.featured-work {
+    padding: 16px;
+}
+
+.featured-work li {
+    float: left;
+    text-align: center;
+    list-style: initial;
+    padding-right: 38px;
+}
+
+.glyphicon-star {
+    color: rgb(255, 238, 96);
+    text-shadow: 1px 1px 2px black;
+}
+
+.frame-container.skills {
+    padding: 70px 0;
+}
+
+.skills .lead, .skills .featurette-heading {
+    text-shadow: 1px 1px 2px black;
+}
+
+.mug-shot {
+    max-width: 400px;
+    float: none;
+    margin: 0 auto;
+}
+
+.mug-shot img {
+    padding: 16px;
+    border-radius: 100%;
+}
+
+.play-container {
+    height: 750px;
+}
+
+@media (max-width: 992px) {
+    .mobile-text-black, .nav.navbar-nav.navbar-right li a.mobile-text-black {
+        color: black;
+    }
+    .play-container {
+        height: 750px;
+    }
+    .featured-work li {
+        width: 100%;
+        text-align: left;
+    }
+    .mobile-padding {
+        padding: 0;
+    }
+    .mug-shot {
+        display: none;
+    }
+    .carousel-caption {
+        bottom: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .mobile-text-black, .nav.navbar-nav.navbar-right li a.mobile-text-black {
+        color: black;
+    }
+    .play-container {
+        height: 650px;
+    }
+    .featured-work li {
+        width: 100%;
+        text-align: left;
+    }
+    .mobile-padding {
+        padding: 0;
+    }
+    .mug-shot {
+        display: none;
+    }
+    .carousel-caption {
+        bottom: 30px;
+    }
+}
+
