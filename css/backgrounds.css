@@ -27,11 +27,11 @@
         display: none;
     }
     .home-background {
-        background: url(https://d1ol8tjtrbheym.cloudfront.net/hello_sm.jpg) center center no-repeat;
+        background: url(https://d314rf3j8ods4g.cloudfront.net/hello_sm.jpg) center center no-repeat;
         background-size: cover;
     }
     .play-background {
-        background: url(https://d1ol8tjtrbheym.cloudfront.net/play_background_sm.jpg) center top no-repeat;
+        background: url(https://d314rf3j8ods4g.cloudfront.net/play_background_sm.jpg) center top no-repeat;
         background-size: cover;
     }
 }
