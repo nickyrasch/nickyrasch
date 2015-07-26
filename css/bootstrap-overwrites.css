@@ -57,13 +57,9 @@ footer {
     margin-top: 10px;
 }
 
-img, video, iframe {
+img, video {
     width: 100%;
     float: left;
-}
-
-iframe {
-    min-height: 550px;
 }
 
 .code-icons {
@@ -72,8 +68,37 @@ iframe {
     float: none;
 }
 
+.carousel-caption {
+    position: static;
+    padding-top: 650px;
+    padding-bottom: 20px;
+}
+
+.btn{
+    border-radius: 0;
+}
+
+.embed-responsive, .featurette-divider {
+    float: left;
+    width: 100%;
+}
+
+@media (max-width: 1350px) {
+    .carousel-caption {
+        padding-top: 500px;
+    }
+}
+
+
 @media (max-width: 992px) {
-    iframe {
-        min-height: 350px;
+    .carousel-caption {
+        padding-top: 500px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .carousel-caption {
+        padding-top: 400px;
     }
 }
