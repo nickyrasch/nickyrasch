@@ -29,229 +29,441 @@
 <!-- NAVBAR
 ================================================== -->
 <body>
-<div class="navbar-wrapper">
-    <div class="container">
+    <div class="navbar-wrapper">
+        <div class="container">
 
-        <nav class="navbar navbar-inverse navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <h1 class="myname">
-                        <a href="#"><img src="images/favicon.png" class="mybrand">
-                            <span class="icky">ICKY</span>
-                        </a>
-                    </h1>
-                </div>
-                <div id="navbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html" class="active-link">PLAY</a></li>
-                        <li><a href="work.html">WORK</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-    </div>
-</div>
-
-<div class="container-fluid play-container">
-    <div class="container">
-        <!-- START THE FEATURETTES -->
-        <div class="frame-container skills">
-            <div class="row featurette">
-                <div class="container text-white">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <span class="bg-image play-background"></span>
-                        <video id="video-background" preload="auto" autoplay="true" loop="loop">
-                            <source src="https://d314rf3j8ods4g.cloudfront.net/background-video.webmhd.webm" type="video/webm">
-                            <source src="https://d314rf3j8ods4g.cloudfront.net/background-video.mp4" type="video/mp4">
-                            Your browser does not support the video tag, please consider updating for better accessibility.
-                        </video>
-                    </div>
-                </div>
+            <nav class="navbar navbar-inverse navbar-static-top">
                 <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Got a wild side?</h1>
-                        <p>Scroll down...</p>
+                    <div class="navbar-header">
+                        <h1 class="myname">
+                            <a href="#"><img src="images/favicon.png" class="mybrand">
+                                <span class="icky mobile-text-black">ICKY</span>
+                            </a>
+                        </h1>
+                    </div>
+                    <div id="navbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html" class="active-link">WORK</a></li>
+                            <li><a href="play.html" class="mobile-text-black">PLAY</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+
+    <div class="container-fluid play-container">
+        <div class="container">
+            <!-- START THE FEATURETTES -->
+            <div class="frame-container skills">
+                <div class="row featurette">
+                    <div class="container text-white">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <span class="bg-image home-background"></span>
+                            <video id="video-background" preload="auto" autoplay="true" loop="loop">
+                                <source src="https://d1usnh43jz7ipu.cloudfront.net/background_plain.webmhd.webm" type="video/webm">
+                                <source src="https://d1usnh43jz7ipu.cloudfront.net/background_plain.mp4" type="video/mp4">
+                                Your browser does not support the video tag, please consider updating for better accessibility.
+                            </video>
+                        </div>
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>Do you even git?</h1>
+                                <p>Scroll down...</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container-fluid marketing">
+        <div class="container">
+            <hr class="featurette-divider">
+            <h2 class="featurette-heading text-center">I am a full-stack web developer.</h2>
+            <p class="lead text-center"> I am happily employed full time with <a href="http://www.fcflamingo.com">FC Flamingo</a>.
+                I have been fascinated by science and technology my entire life, finding inspiration in comics & films.
+                I enjoy working on projects of all types, creative, enterprise or otherwise.
+                My passion for web technology comes from its ability to do two things. One, is reach, communicate, and share knowledge with anyone on the planet in an instant.
+                The second is that it has the potential to to effect massive amounts of people and how they live their lives when done right.
+                Below are some the frameworks that I have have confidently delivered in the past.
+            </p>
+            <hr class="featurette-divider">
+            <!-- Three columns of text below the carousel -->
+            <div class="row text-center">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="images/yeoman-logo.png" class="code-icons">
+                    <h2>YO</h2>
+                    <p class="lead"><a href="http://yeoman.io/">Yeoman</a> is another great framework that I am more than failure with. It is great for quickly building some of the more design oriented websites I have worked on in the past.</p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="images/ruby-logo.png" class="code-icons">
+                    <h2>RAILS</h2>
+                    <p class="lead"><a href="http://rubyonrails.org/">Ruby on Rails</a> is my framework of choice I have worked on manny applications with it. I use <a href="https://www.heroku.com/">Heroku</a> to manage and deploy the application and database, and <a href="https://travis-ci.org/">Travis CI</a> for testing.</p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="images/cms.png" class="code-icons">
+                    <h2>CMS</h2>
+                    <p class="lead">Content Management Systems were my introduction to the web world and they have become no less relevant. This is for the clients who like to get their hands a little dirty.</p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+            <hr class="featurette-divider">
+        </div>
+    </div>
+
+    <div class="container-fluid bg-black">
+            <div class="container mobile-padding">
+            <!-- START THE FEATURETTES -->
+            <div class="frame-container skills">
+                <div class="row featurette">
+                    <div class="container text-white">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="featurette-heading">Skills.</h2>
+                            <p class="lead">Here are some of the skills I enjoy using for work.</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">Rails</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">Yo</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">Grunt</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">Jeykll</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">Node</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">JSP</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">Java</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">jQuery</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">Travis CI</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">Adobe Suite</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">JS</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">CoffeeScript</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">CSS</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">SCSS</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">HTML</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">HAML</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">RSPEC</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">Postgres</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">Heroku</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><p class="lead">Git</p></div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><p class="lead">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <div class="container-fluid marketing">
     <div class="container">
 
-        <div class="row featurette">
-            <div class="col-md-6">
-                <hr class="featurette-divider">
-                <h2 class="featurette-heading" >Comics.</h2>
-                <p class="lead">
-                    One word, Marvel. They are killing the game, and have always been my favorite.
-                    No offence everyone else creating comics, but even you have to respect what Marvel has built.
-                    I have been writing and creating tons of concept art for a series that I would like to contribute to the comic book universe.
-                    If your interested in checking out its development click on the social media below I'll be posting updates there.
-                </p>
-                <ul class="featured-work text-center">
-                    <a href="http://insatiableproductions.com/comics.html" target="_blank">
-                        <li>
-                            <p class="lead">Comics</p>
-                        </li>
-                    </a>
-                </ul>
-                <img src="https://d314rf3j8ods4g.cloudfront.net/comics_md.jpg">
-                <hr class="featurette-divider">
-                <div class="btn-group btn-group-justified" role="group" >
-                    <div class="btn-group" role="group">
-                        <a href="http://instagram.com/nickyrasch" class="btn btn-primary btn-lg" target="_blank">
-                            <i class="fa fa-instagram"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <hr class="featurette-divider">
-                <h2 class="featurette-heading" >Animation & Games.</h2>
-                <p class="lead">
-                    I worked on my first animations at nine years old with my dad when he would get home from work.
-                    Back then I was working on 3dMax, the industry and tools have changed quite alot.
-                    Since then I have migrated to Maya and continued to animate for non-professional films, and shorts.
-                    I have done 3d, 2d, and Stop motion animation, they are all very fun mediums and something I see myself always dabbling with.
-                </p>
-                <ul class="featured-work text-center">
-                    <a href="http://insatiableproductions.com/" target="_blank">
-                        <li>
-                            <p class="lead">Insatiable Productions</p>
-                        </li>
-                    </a>
-                    <a href="http://insatiableproductions.com/games.html" target="_blank">
-                        <li>
-                            <p class="lead">Games</p>
-                        </li>
-                    </a>
-                </ul>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/s_AQarETGCI" frameborder="0" allowfullscreen></iframe>
-                </div>
-                <hr class="featurette-divider">
-                <div class="btn-group btn-group-justified" role="group" >
-                    <div class="btn-group" role="group">
-                        <a href="http://www.youtube.com/user/nickyrasch" class="btn btn-primary btn-lg" target="_blank">
-                            <i class="fa fa-youtube-play"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <hr class="featurette-divider">
 
         <div class="row featurette">
-            <div class="col-md-6">
-                <hr class="featurette-divider">
-                <h2 class="featurette-heading" >Film.</h2>
-                <p class="lead">
-                    Film has always been an inspiration for both technology and art.
-                    I love to write scripts, in fact, my experience writing helped me out immensely when I was learning to code.
-                    I am very into gritty action, sci-fi, and comedy's. However the best films are the ones that have a great characters, ones you can rally behind.
-                </p>
+            <div class="col-md-12">
+                <h2 class="featurette-heading">Wonderful people i've done work with.</h2>
                 <ul class="featured-work text-center">
-                    <a href="http://insatiableproductions.com/" target="_blank">
-                        <li>
-                            <p class="lead">Insatiable Productions</p>
-                        </li>
-                    </a>
-                </ul>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MYVZ9I2k1-U" frameborder="0" allowfullscreen></iframe>
-                </div>
-                <hr class="featurette-divider">
-                <div class="btn-group btn-group-justified" role="group" >
-                    <div class="btn-group" role="group">
-                        <a href="http://www.youtube.com/user/nickyrasch" class="btn btn-primary btn-lg" target="_blank">
-                            <i class="fa fa-youtube-play"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <hr class="featurette-divider">
-                <h2 class="featurette-heading" >Fine Art.</h2>
-                <p class="lead">
-                    Painting & Sculpture are mediums that I don't dive into very often but I certainly love it when I have the time.
-                    That really is what it comes down to for these, hours and hours of time staring at the same thing while it slowly takes shape.
-                    The reward is always having a physical thing that you created in your house. Something nostalgic about these pieces as well.
-                </p>
-                <ul class="featured-work text-center">
-                    <a href="http://insatiableproductions.com/" target="_blank">
-                        <li>
-                            <p class="lead">Insatiable Productions</p>
-                        </li>
-                    </a>
-                </ul>
-                <img src="https://d314rf3j8ods4g.cloudfront.net/fineart_md.jpg">
-                <hr class="featurette-divider">
-                <div class="btn-group btn-group-justified" role="group" >
-                    <div class="btn-group" role="group">
-                        <a href="https://www.behance.net/theinsatiable" class="btn btn-primary btn-lg" target="_blank">
-                            <i class="fa fa-behance"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="row featurette">
-            <div class="col-md-6">
-                <hr class="featurette-divider">
-                <h2 class="featurette-heading" >Photography.</h2>
-                <p class="lead">
-                    The night is a beautiful place when captured with a long exposure... like 20 seconds or more.
-                    One of my all time favorite things is to pack a bag with props, a camera, flashlights and hit the road to some remote location.
-                    It's something I can do with friends or alone and have a great time.
-                    You get to see awesome locations, get insane pictures and almost always have a story to tell after.
-                </p>
-                <ul class="featured-work text-center">
-                    <a href="http://insatiableproductions.com/" target="_blank">
+
+
+                    <a href="http://www.fcflamingo.com/" target="_blank">
                         <li>
-                            <p class="lead">Insatiable Productions</p>
+                            <p class="lead">FC Flamingo</p>
+                        </li>
+                    </a>
+                    <a href="http://www.velocitywerks.com/" target="_blank">
+                        <li>
+                            <p class="lead">Velocity Werks</p>
+                        </li>
+                    </a>
+                    <a href="http://www.seaburygroup.com/" target="_blank">
+                        <li>
+                            <p class="lead">Seabury Group</p>
+                        </li>
+                    </a>
+
+
+                    <a href="http://www.sustain.net/" target="_blank">
+                        <li>
+                            <p class="lead">Sustain Technologies</p>
+                        </li>
+                    </a>
+                    <a href="https://www.dailyjournal.com/" target="_blank">
+                        <li>
+                            <p class="lead">The Daily Journal</p>
+                        </li>
+                    </a>
+                    <a href="https://redhub.herokuapp.com/" target="_blank">
+                        <li>
+                            <p class="lead">Redhub</p>
+                        </li>
+                    </a>
+                    <a href="https://sustain.github.io/jtux" target="_blank">
+                        <li>
+                            <p class="lead">JTUX</p>
+                        </li>
+                    </a>
+                    <a href="http://theeraagency.com/" target="_blank">
+                        <li>
+                            <p class="lead">The Era Agency</p>
+                        </li>
+                    </a>
+                    <a href="http://www.columbu.com" target="_blank">
+                        <li>
+                            <p class="lead">Franco Columbu</p>
+                        </li>
+                    </a>
+                    <a href="http://www.pacific-coast-health.com/" target="_blank">
+                        <li>
+                            <p class="lead">Pacific Coast Health</p>
+                        </li>
+                    </a>
+                    <a href="http://comic-movies.herokuapp.com/" target="_blank">
+                        <li>
+                            <p class="lead">Comic Movies</p>
                         </li>
                     </a>
                 </ul>
-                <img src="https://d314rf3j8ods4g.cloudfront.net/photo_md.jpg">
-                <hr class="featurette-divider">
-                <div class="btn-group btn-group-justified" role="group" >
-                    <div class="btn-group" role="group">
-                        <a href="https://www.behance.net/theinsatiable" class="btn btn-primary btn-lg" target="_blank">
-                            <i class="fa fa-behance"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <hr class="featurette-divider">
-                <h2 class="featurette-heading">Sci-Fi projects.</h2>
-                <p class="lead">
-                    I have been reading comic books since I was a little kid and been inspired by their idealistic approach to impossible challenges.
-                    In an attempt to live my life in the same manner I try to watch, create and inspire others to build things and do things that defy all odds.
-                    There are tons of projects in my backlog, and plenty to learn before manny of them will be up and running but feel free to take a look at their development!
-                </p>
-                <ul class="featured-work text-center">
-                    <a href="http://insatiabletechnologies.herokuapp.com/" target="_blank">
-                        <li>
-                            <p class="lead">IT</p>
-                        </li>
-                    </a>
-                </ul>
-                <img src="https://d314rf3j8ods4g.cloudfront.net/ITbackground3.jpg">
-                <hr class="featurette-divider">
-                <div class="btn-group btn-group-justified" role="group" >
-                    <div class="btn-group" role="group">
-                        <a href="https://www.github.com/nickyrasch" class="btn btn-primary btn-lg" target="_blank">
-                            <i class="fa fa-github"></i>
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -271,7 +483,7 @@
                     Please no recruiters, or loitering.
                 </p>
                 <div>
-                    <img src="https://d314rf3j8ods4g.cloudfront.net/mugshot_6.jpg">
+                    <img src="https://d314rf3j8ods4g.cloudfront.net/mugshot_5.jpg">
                 </div>
                 <hr class="featurette-divider">
                 <div class="btn-group btn-group-justified" role="group" aria-label="...">
