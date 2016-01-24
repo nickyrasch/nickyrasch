@@ -17,21 +17,15 @@
     background: #faffff;
 }
 
-.bg-black {
-    background: rgba(8, 8, 9, 0.85);
+.bg-skills {
+    background: rgba(225, 0, 84, 0.85);
 }
-
 
 @media (max-width: 992px) {
     #video-background{
         display: none;
     }
-    .home-background {
-        background: url(https://d314rf3j8ods4g.cloudfront.net/hello_sm.jpg) center center no-repeat;
-        background-size: cover;
-    }
-    .play-background {
-        background: url(https://d314rf3j8ods4g.cloudfront.net/play_background_sm.jpg) center top no-repeat;
-        background-size: cover;
+    .bg-skills {
+        background: #FF0054;
     }
 }
