@@ -1,14 +1,12 @@
 body {
     font-family: 'Raleway', sans-serif;
-}
-
-.container {
-    max-width: 900px;
+    color: #fff;
 }
 
 .navbar-inverse {
     background: none;
     border: none;
+    margin-bottom: 0;
 }
 
 ul, ul li {
@@ -16,12 +14,16 @@ ul, ul li {
     list-style: none;
 }
 
-a, .nav.navbar-nav.navbar-right li a {
-    color: #FF0054;
+hr {
+    border-color: #ff437a;
 }
 
-a:hover, .nav.navbar-nav.navbar-right li a:hover {
+a, .nav.navbar-nav.navbar-right li a {
     color: #ff9dab;
+}
+
+a:hover, a:active, a:focus, .nav.navbar-nav.navbar-right li a:hover {
+    color: #fff;
     text-decoration: underline;
 }
 
@@ -105,6 +107,10 @@ img, video {
 
 .featurette-heading {
     text-transform: uppercase;
+}
+
+.navbar-header {
+    margin: 0 !important;
 }
 
 @media (max-width: 1350px) {
