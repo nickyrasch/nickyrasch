@@ -83,3 +83,12 @@ background-size: cover;
         font-size: 30px;
     }
 }
+
+@media (max-width: 768px) {
+    .banner {
+        height: 400px;
+    }
+    .featured-work h1 {
+        font-size: 30px;
+    }
+}
