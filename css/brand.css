@@ -88,6 +88,9 @@
         padding: 0;
         color: #FF0054;
     }
+    .no-padding-mobile {
+        padding: 0;
+    }
 }
 
 @media (max-width: 500px) {
@@ -111,5 +114,7 @@
         padding: 0;
         color: #FF0054;
     }
+    .no-padding-mobile {
+        padding: 0;
+    }
 }
-
