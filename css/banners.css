@@ -82,4 +82,7 @@ background-size: cover;
     .featured-work h1 {
         font-size: 30px;
     }
+    .banner {
+        height: 400px;
+    }
 }
