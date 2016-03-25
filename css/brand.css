@@ -68,21 +68,14 @@
 }
 
 @media (max-width: 992px) {
-    .mobile-text-black, .nav.navbar-nav.navbar-right li a.mobile-text-black {
-        color: black;
-    }
     .play-container {
-        height: 200px;
-    }
-    .featured-work li {
-        width: 100%;
-        text-align: left;
+        margin-top: -70px;
+        height: 550px;
+        background: url('https://s3.amazonaws.com/nickyrasch/background_plain.gif') center center no-repeat;
+        background-size: cover;
     }
     .mobile-padding {
         padding: 0;
-    }
-    .mug-shot {
-        display: none;
     }
     .carousel-caption {
         padding: 0;
@@ -91,21 +84,14 @@
 }
 
 @media (max-width: 500px) {
-    .mobile-text-black, .nav.navbar-nav.navbar-right li a.mobile-text-black {
-        color: black;
-    }
     .play-container {
-        height: 200px;
-    }
-    .featured-work li {
-        width: 100%;
-        text-align: left;
+        margin-top: -70px;
+        height: 400px;
+        background: url('https://s3.amazonaws.com/nickyrasch/background_plain.gif') center center no-repeat;
+        background-size: cover;
     }
     .mobile-padding {
         padding: 0;
-    }
-    .mug-shot {
-        display: none;
     }
     .carousel-caption {
         padding: 0;

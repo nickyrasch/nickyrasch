@@ -62,6 +62,8 @@ footer {
 .featurette-heading {
     font-weight: bold;
     margin-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px #111;
 }
 
 img, video {
