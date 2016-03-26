@@ -1,0 +1,31 @@
+.featured-work a {
+    height: 100px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.featured-work h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    opacity: .6;
+    -webkit-transition: .25s ease;
+    -moz-transition: .25s ease;
+    -ms-transition: .25s ease;
+    -o-transition: .25s ease;
+    transition: .25s ease;
+}
+
+.featured-work h1:hover {
+    opacity: 1;
+    text-shadow: 2px 2px #111;
+}
+
+@media (max-width: 992px) {
+    .featured-work h1 {
+        font-size: 30px;
+    }
+}
